@@ -11,13 +11,13 @@ export const baseColors = {
 };
 
 export const brandColors = {
-  binance: "#F0B90B",
+  binance: "red",
 };
 
 export const lightColors: Colors = {
   ...baseColors,
   ...brandColors,
-  background: "red",
+  background: "#FAF9FA",
   backgroundDisabled: "#E9EAEB",
   contrast: "#191326",
   invertedContrast: "#FFFFFF",
