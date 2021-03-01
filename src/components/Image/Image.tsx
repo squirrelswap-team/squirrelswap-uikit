@@ -21,7 +21,7 @@ const Placeholder = styled.div`
   height: 100%;
 `;
 
-const Image: React.FC<ImageProps> = ({ src, alt, ...otherProps }) => {
+const Image: React.FC<ImageProps> = ({ src, alt, FarmsClass, ...otherProps }) => {
   const imgRef = useRef(null);
   const [isLoaded, setIsLoaded] = useState(false);
 
@@ -45,7 +45,7 @@ const Image: React.FC<ImageProps> = ({ src, alt, ...otherProps }) => {
 
   return (
     <Wrapper ref={imgRef} {...otherProps}>
-      {isLoaded ? <StyledImage src={src} alt={alt} /> : <Placeholder />}
+      {isLoaded ? <StyledImage src={src} alt={alt} className={FarmsClass} /> : <Placeholder />}
     </Wrapper>
   );
 };
