@@ -343,7 +343,7 @@ var Icon$p = function (props) {
 
 var Icon$q = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
-        React.createElement("image", { width: "32", height: "32", href: "images/egg/logo.png" })));
+        React.createElement("image", { width: "32", height: "32", href: "images/squirrel/logo.png" })));
 };
 
 var Icon$r = function (props) {
@@ -400,7 +400,7 @@ var Icon$u = function (props) {
 
 var Icon$v = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React.createElement("image", { width: 90, height: 90, href: "images/egg/9.png" })));
+        React.createElement("image", { width: 90, height: 90, href: "images/squirrel/9.png" })));
 };
 
 var Icon$w = function (props) {
@@ -1125,7 +1125,7 @@ var Progress = function (_a) {
 var rotate$1 = keyframes(templateObject_1$r || (templateObject_1$r = __makeTemplateObject(["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"], ["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"])));
 var SpinnerIcon = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 96 96" }, props),
-        React.createElement("image", { width: "96", height: "96", href: "images/egg/9.png" })));
+        React.createElement("image", { width: "96", height: "96", href: "images/squirrel/9.png" })));
 };
 var Container$1 = styled.div(templateObject_2$6 || (templateObject_2$6 = __makeTemplateObject(["\n  position: relative;\n"], ["\n  position: relative;\n"])));
 var RotatingPancakeIcon = styled(SpinnerIcon)(templateObject_3$2 || (templateObject_3$2 = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 2s linear infinite;\n  transform: translate3d(0, 0, 0);\n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 2s linear infinite;\n  transform: translate3d(0, 0, 0);\n"])), rotate$1);
@@ -1860,7 +1860,7 @@ var Icon$O = function (props) {
 var Logo = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
     return (React.createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
-        React.createElement("image", { width: "205", height: "26", href: isDark ? 'images/egg/LogoTextNewDark.png' : 'images/egg/LogoTextNewWhite.png' })));
+        React.createElement("image", { width: "205", height: "26", href: isDark ? 'images/squirrel/LogoTextNewDark.png' : 'images/squirrel/LogoTextNewWhite.png' })));
 };
 
 var Icon$P = function (props) {
@@ -2729,9 +2729,9 @@ var templateObject_1$K;
 
 var baseColors = {
     failure: "#ED4B9E",
-    primary: "#aa8929",
-    primaryBright: "#aa8929",
-    primaryDark: "#aa8929",
+    primary: "#915429",
+    primaryBright: "#915429",
+    primaryDark: "#915429",
     secondary: "#7645D9",
     success: "#31D0AA",
     warning: "#FFB237",
@@ -2739,7 +2739,7 @@ var baseColors = {
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#452A7A", textDisabled: "#BDC2C4", textSubtle: "#915429", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "rgba(145, 84, 41, .1)", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "rgba(145, 84, 41, .1)", tertiary: "#EFF4F5", text: "#915429", textDisabled: "#BDC2C4", textSubtle: "#915429", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
 var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
