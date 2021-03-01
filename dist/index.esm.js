@@ -883,7 +883,7 @@ var BackgroundImage = function (_a) {
     return React.createElement(Wrapper, __assign({ ref: imgRef }, otherProps));
 };
 
-var StyledImage = styled.img(templateObject_1$i || (templateObject_1$i = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  max-width: 100%;\n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  max-width: 100%;\n"])));
+var StyledImage = styled.img(templateObject_1$i || (templateObject_1$i = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  max-width: 100%;\n  \n  &.FarmsStyle { \n    right: 0 !important;\n    width: auto !important;\n  }\n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  max-width: 100%;\n  \n  &.FarmsStyle { \n    right: 0 !important;\n    width: auto !important;\n  }\n"])));
 var Placeholder = styled.div(templateObject_2$4 || (templateObject_2$4 = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n"])));
 var Image = function (_a) {
     var src = _a.src, alt = _a.alt, FarmsClass = _a.FarmsClass, otherProps = __rest(_a, ["src", "alt", "FarmsClass"]);
@@ -1859,8 +1859,8 @@ var Icon$O = function (props) {
 
 var Logo = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
-        React.createElement("image", { width: "205", height: "26", href: isDark ? 'images/squirrel/LogoTextNewDark.png' : 'images/squirrel/LogoTextNewWhite.png' })));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 205 40" }, props),
+        React.createElement("image", { width: "205", height: "40", href: isDark ? 'images/squirrel/LogoTextNewDark.png' : 'images/squirrel/LogoTextNewWhite.png' })));
 };
 
 var Icon$P = function (props) {
@@ -2688,7 +2688,7 @@ var baseColors = {
     primary: "#915429",
     primaryBright: "#915429",
     primaryDark: "#915429",
-    secondary: "#7645D9",
+    secondary: "#915429",
     success: "#31D0AA",
     warning: "#FFB237",
 };
