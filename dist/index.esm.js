@@ -2004,7 +2004,7 @@ var links = [
     {
         label: "Pools",
         icon: "PoolIcon",
-        href: "/syrup",
+        href: "/pool",
     },
     {
         label: "Lottery",
