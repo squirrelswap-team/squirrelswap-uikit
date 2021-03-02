@@ -13,6 +13,7 @@ const StyledImage = styled.img`
   max-width: 100%;
   
   &.FarmsStyle { 
+    left: auto !important;
     right: 0 !important;
     width: auto !important;
   }

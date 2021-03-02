@@ -896,7 +896,7 @@ var BackgroundImage = function (_a) {
     return React__default['default'].createElement(Wrapper, __assign({ ref: imgRef }, otherProps));
 };
 
-var StyledImage = styled__default['default'].img(templateObject_1$i || (templateObject_1$i = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  max-width: 100%;\n  \n  &.FarmsStyle { \n    right: 0 !important;\n    width: auto !important;\n  }\n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  max-width: 100%;\n  \n  &.FarmsStyle { \n    right: 0 !important;\n    width: auto !important;\n  }\n"])));
+var StyledImage = styled__default['default'].img(templateObject_1$i || (templateObject_1$i = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  max-width: 100%;\n  \n  &.FarmsStyle { \n    left: auto !important;\n    right: 0 !important;\n    width: auto !important;\n  }\n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  max-width: 100%;\n  \n  &.FarmsStyle { \n    left: auto !important;\n    right: 0 !important;\n    width: auto !important;\n  }\n"])));
 var Placeholder = styled__default['default'].div(templateObject_2$4 || (templateObject_2$4 = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n"])));
 var Image = function (_a) {
     var src = _a.src, alt = _a.alt, FarmsClass = _a.FarmsClass, otherProps = __rest(_a, ["src", "alt", "FarmsClass"]);
