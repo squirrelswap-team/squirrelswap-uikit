@@ -2084,21 +2084,21 @@ var links = [
         label: "More",
         icon: "MoreIcon",
         items: [
-            // {
-            //   label: "Voting",
-            //   href: "https://voting.pancakeswap.finance",
-            // },
             {
                 label: "Github",
-                href: "https://github.com/goosedefi/",
+                href: "https://github.com/squirrelswap/squirrelswap-contracts",
             },
             {
                 label: "Docs",
-                href: "https://goosedefi.gitbook.io/goose-finance/",
+                href: "https://docs.squirrelswap.finance",
             },
             {
-                label: "Blog",
-                href: "https://goosefinance.medium.com/",
+                label: "Blog(CN)",
+                href: "https://www.yuque.com/squirrel-mqobd/cgcs2r/eogk9t",
+            },
+            {
+                label: "Blog(EN)",
+                href: "https://medium.com/@SquirrelFinanc1",
             },
         ],
     },
@@ -2429,7 +2429,7 @@ var AccountModal = function (_a) {
     return (React__default['default'].createElement(Modal, { title: "Your wallet", onDismiss: onDismiss },
         React__default['default'].createElement(Text, { fontSize: "20px", bold: true, style: { whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", marginBottom: "8px" } }, account),
         React__default['default'].createElement(Flex, { mb: "32px" },
-            React__default['default'].createElement(LinkExternal, { small: true, href: "https://bscscan.com/address/" + account, mr: "16px" }, "View on BscScan"),
+            React__default['default'].createElement(LinkExternal, { small: true, href: "https://hecoinfo.com/address/" + account, mr: "16px" }, "View on HecoScan"),
             React__default['default'].createElement(CopyToClipboard, { toCopy: account }, "Copy Address")),
         React__default['default'].createElement(Flex, { justifyContent: "center" },
             React__default['default'].createElement(Button, { size: "sm", variant: "secondary", onClick: function () {

@@ -93,21 +93,21 @@ export const links = [
     label: "More",
     icon: "MoreIcon",
     items: [
-      // {
-      //   label: "Voting",
-      //   href: "https://voting.pancakeswap.finance",
-      // },
       {
         label: "Github",
-        href: "https://github.com/goosedefi/",
+        href: "https://github.com/squirrelswap/squirrelswap-contracts",
       },
       {
         label: "Docs",
-        href: "https://goosedefi.gitbook.io/goose-finance/",
+        href: "https://docs.squirrelswap.finance",
       },
       {
-        label: "Blog",
-        href: "https://goosefinance.medium.com/",
+        label: "Blog(CN)",
+        href: "https://www.yuque.com/squirrel-mqobd/cgcs2r/eogk9t",
+      },
+      {
+        label: "Blog(EN)",
+        href: "https://medium.com/@SquirrelFinanc1",
       },
     ],
   },
